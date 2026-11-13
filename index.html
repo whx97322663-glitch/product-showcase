@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="AERIN · 驭风 X1 — 高速负离子电吹风机。更快吹干，更温柔对待。工业设计师翁海旭的产品设计与渲染作品。">
+<meta name="theme-color" content="#0a0a0f">
+<title>AERIN · 驭风 X1 — 高速负离子电吹风机</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' fill='%23d9a066' font-family='Georgia'>A</text></svg>">
+<link rel="preload" as="image" href="assets/hero.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">跳转到内容</a>
+
+<!-- custom cursor -->
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+<div class="cursor-ring" id="cursor-ring" aria-hidden="true"></div>
+
+<!-- mouse glow -->
+<div class="glow" id="glow" aria-hidden="true"></div>
+
+<!-- ============ 0 · PRELOADER ============ -->
+<div class="preloader" id="preloader" aria-hidden="true">
+  <div class="preloader-mark">
+    <span class="pre-char">A</span><span class="pre-char">E</span><span class="pre-char">R</span><span class="pre-char">I</span><span class="pre-char">N</span>
+  </div>
+  <div class="preloader-sub">驭 风 X1</div>
+  <div class="pre-progress"><div class="pre-progress-bar" id="pre-bar"></div></div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="site-header">
+  <a class="wordmark" href="#hero" aria-label="AERIN 驭风 X1，回到顶部">
+    <span class="mark">AERIN</span>
+    <small>驭风 X1</small>
+  </a>
+  <nav class="site-nav" aria-label="主导航">
+    <a href="#flow">气流</a>
+    <a href="#specs">规格</a>
+    <a href="#detail">细节</a>
+    <a href="#behind">设计背后</a>
+    <a href="#contact">联系</a>
+  </nav>
+  <a class="header-cta" href="assets/resume.pdf" target="_blank" rel="noopener">作品集 PDF ↓</a>
+</header>
+
+<main id="main">
+
+<!-- ============ 1 · HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero-frame">
+    <div class="hero-copy">
+      <p class="eyebrow reveal">AERIN / 高速负离子电吹风机</p>
+      <h1 class="hero-title">
+        <span class="line-mask"><span class="line">驭风 <em>X1</em></span></span>
+      </h1>
+      <p class="hero-tag reveal">更快吹干，<br>更温柔对待。</p>
+      <p class="hero-sub reveal">把 <span class="mono-num">110,000</span> rpm 的数码无刷电机，<br>装进 490g 的掌心。</p>
+      <div class="hero-actions reveal">
+        <a class="btn-primary" href="#flow">进入气流 <span aria-hidden="true">↓</span></a>
+        <a class="btn-ghost" href="#behind">设计背后 <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <figure class="hero-art" aria-label="驭风 X1 渲染图">
+      <img src="assets/hero.png" alt="AERIN 驭风 X1 高速电吹风机，黑色电影感渲染" width="1920" height="1080" fetchpriority="high">
+    </figure>
+  </div>
+  <div class="hero-cue" aria-hidden="true">
+    <span>向下滚动，进入气流</span>
+    <i class="cue-line"></i>
+  </div>
+</section>
+
+<!-- ============ 2 · MANIFESTO ============ -->
+<section class="manifesto">
+  <div class="wrap">
+    <h2 class="manifesto-line" aria-label="风，可以很快，也可以很温柔。">
+      <span class="word">风，</span>
+      <span class="word">可以很快，</span>
+      <span class="word">也可以</span>
+      <span class="word accent">很温柔。</span>
+    </h2>
+    <p class="manifesto-note reveal">干发需要速度，发丝需要克制。<br>驭风 X1 同时给出两个答案。</p>
+  </div>
+</section>
+
+<!-- ============ 3–5 · STICKY STORY ============ -->
+<section class="story" id="flow">
+  <div class="story-media">
+    <div class="story-frame" id="story-frame">
+      <img src="assets/hero.png" alt="驭风 X1 产品，随章节变换视角" width="1920" height="1080" loading="lazy">
+    </div>
+    <div class="story-index" id="story-index" aria-hidden="true"><span id="story-num">01</span></div>
+  </div>
+  <div class="story-copy">
+    <article class="story-chapter">
+      <p class="eyebrow reveal">01 / AIRFLOW</p>
+      <h2 class="reveal">气流，被放大了 15 倍。</h2>
+      <p class="reveal">Air Multiplier 气流倍增技术，把 <span class="mono-num">1</span> 升空气变成 <span class="mono-num">15</span> 升。<br>更密、更匀、更快——干发时间缩短一半以上。</p>
+      <dl class="chapter-stats reveal">
+        <div><dt class="stat-num" data-count="15">00</dt><dd>倍风量增益</dd></div>
+        <div><dt class="stat-num" data-count="52">00</dt><dd>米/秒出风</dd></div>
+      </dl>
+    </article>
+    <article class="story-chapter">
+      <p class="eyebrow reveal">02 / CORE</p>
+      <h2 class="reveal">11 万转，安静得像呼吸。</h2>
+      <p class="reveal">数码无刷电机，<span class="mono-num">110,000</span> rpm 高速运转，声压级控制在 <span class="mono-num">75</span> dB。<br>高速不嘶吼——这是驭风 X1 的声场设计。</p>
+      <dl class="chapter-stats reveal">
+        <div><dt class="stat-num" data-count="110000">00</dt><dd>转/分钟</dd></div>
+        <div><dt class="stat-num" data-count="75">00</dt><dd>dB 声压级</dd></div>
+      </dl>
+    </article>
+    <article class="story-chapter">
+      <p class="eyebrow reveal">03 / CLIMATE · IONS</p>
+      <h2 class="reveal">每秒 12 次，替发丝把关。</h2>
+      <p class="reveal">智能温控每秒 <span class="mono-num">12</span> 次监测出风温度，负离子将毛躁降低 <span class="mono-num">80</span>%。<br>干得快，还要柔得久。</p>
+      <dl class="chapter-stats reveal">
+        <div><dt class="stat-num" data-count="12">00</dt><dd>次/秒温控</dd></div>
+        <div><dt class="stat-num" data-count="80">00</dt><dd>% 毛躁降低</dd></div>
+      </dl>
+    </article>
+  </div>
+</section>
+
+<!-- ============ 6 · SPECS ============ -->
+<section class="specs" id="specs">
+  <div class="wrap">
+    <div class="section-heading reveal">
+      <span class="eyebrow">04 / SPECS</span>
+      <h2>规格，即性格。</h2>
+    </div>
+    <ul class="spec-list">
+      <li class="reveal" style="--i:0"><span class="spec-key">转速</span><span class="spec-val"><b>110,000</b> rpm 数码无刷电机</span></li>
+      <li class="reveal" style="--i:1"><span class="spec-key">风量</span><span class="spec-val"><b>15×</b> Air Multiplier 气流倍增</span></li>
+      <li class="reveal" style="--i:2"><span class="spec-key">声场</span><span class="spec-val"><b>75</b> dB · 高速不嘶吼</span></li>
+      <li class="reveal" style="--i:3"><span class="spec-key">温控</span><span class="spec-val"><b>12</b> 次/秒 智能控温防烫</span></li>
+      <li class="reveal" style="--i:4"><span class="spec-key">负离子</span><span class="spec-val"><b>80%</b> 毛躁降低 · 柔顺光泽</span></li>
+      <li class="reveal" style="--i:5"><span class="spec-key">握持</span><span class="spec-val"><b>490</b> g · 重心后置不累手</span></li>
+      <li class="reveal" style="--i:6"><span class="spec-key">档位</span><span class="spec-val"><b>4</b> 风速 × <b>3</b> 风温 + 冷风锁定</span></li>
+      <li class="reveal" style="--i:7"><span class="spec-key">风嘴</span><span class="spec-val"><b>3</b> 款磁吸风嘴 · 秒装秒拆</span></li>
+      <li class="reveal" style="--i:8"><span class="spec-key">维护</span><span class="spec-val"><b>可水洗</b> 滤网 · 1.2m 收纳挂架</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 7 · MACRO ============ -->
+<section class="macro" id="detail">
+  <div class="macro-stage">
+    <div class="macro-zoom" id="macro-zoom">
+      <img src="assets/hero.png" alt="驭风 X1 细节特写" width="1920" height="1080" loading="lazy">
+    </div>
+  </div>
+  <div class="macro-copy">
+    <p class="eyebrow reveal">05 / MACRO</p>
+    <h2 class="reveal">细节，是放大的诚实。</h2>
+    <div class="macro-notes">
+      <p class="reveal"><span class="mono-num">01</span> 出风格栅 — 0.2mm 开孔，风道即纹理</p>
+      <p class="reveal"><span class="mono-num">02</span> 环形灯带 — 色温随档位流动</p>
+      <p class="reveal"><span class="mono-num">03</span> 按键阻尼 — 28gf 的确认感</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 8 · FLOW FIELD ============ -->
+<section class="flowfield" aria-label="气流动画">
+  <canvas id="flow-canvas" aria-hidden="true"></canvas>
+  <div class="flowfield-caption">
+    <p class="eyebrow reveal">06 / FLOW</p>
+    <p class="reveal">移动鼠标，扰动气流。</p>
+  </div>
+</section>
+
+<!-- ============ 9 · BEHIND THE DESIGN ============ -->
+<section class="behind" id="behind">
+  <div class="wrap">
+    <div class="section-heading reveal">
+      <div>
+        <span class="eyebrow">07 / BEHIND THE DESIGN</span>
+        <h2>这不是渲染图，<br>是我的作品集。</h2>
+      </div>
+      <p class="behind-intro reveal">驭风 X1 由我独立完成：建模、Cycles 渲染设置、光影与成片。<br>下面是过程。</p>
+    </div>
+    <div class="behind-grid">
+      <figure class="behind-item reveal">
+        <div class="behind-media"><img src="assets/process-blender.png" alt="Blender Cycles 渲染设置界面" width="1920" height="1080" loading="lazy"></div>
+        <figcaption><span>过程 / Blender</span>Cycles 渲染设置 · 灯光与采样</figcaption>
+      </figure>
+      <figure class="behind-item reveal">
+        <div class="behind-media video-media">
+          <video controls muted playsinline preload="metadata" poster="assets/scene.png">
+            <source src="assets/showreel.mp4" type="video/mp4">
+          </video>
+          <span class="play-badge" aria-hidden="true">▶</span>
+        </div>
+        <figcaption><span>成片 / 渲染视频</span>Blender 场景渲染 · 4K 成片片段</figcaption>
+      </figure>
+      <figure class="behind-item reveal">
+        <div class="behind-media"><img src="assets/hero.png" alt="驭风 X1 成品渲染" width="1920" height="1080" loading="lazy"></div>
+        <figcaption><span>成品 / Render</span>驭风 X1 · 最终渲染</figcaption>
+      </figure>
+    </div>
+    <div class="toolchain reveal">
+      <span class="toolchain-label">工具链</span>
+      <p>Blender · Cycles · KeyShot · Photoshop · Premiere Pro</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 10 · CTA + FOOTER ============ -->
+<footer class="cta" id="contact">
+  <div class="wrap cta-top">
+    <p class="eyebrow reveal">AERIN · 驭风 X1</p>
+    <h2 class="cta-title">
+      <span class="line-mask"><span class="line">把下一个产品，</span></span>
+      <span class="line-mask"><span class="line">交给我<em>。</em></span></span>
+    </h2>
+    <div class="cta-actions reveal">
+      <a class="btn-primary" href="mailto:97322663@qq.com">联系设计师 <span aria-hidden="true">↗</span></a>
+      <a class="btn-ghost" href="assets/resume.pdf" target="_blank" rel="noopener">下载作品集 PDF <span aria-hidden="true">↓</span></a>
+    </div>
+    <address class="cta-contact">
+      <a href="tel:+8618921206555">18921206555</a>
+      <a href="mailto:97322663@qq.com">97322663@qq.com</a>
+    </address>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 翁海旭 · 工业设计与渲染</span>
+    <span class="footer-note">本站为面试作品 · 产品为虚构设计展示</span>
+    <a href="#hero">回到顶部 ↑</a>
+  </div>
+</footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
